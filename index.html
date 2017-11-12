@@ -1,10 +1,81 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Scratch Fun</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat" rel="stylesheet">
+    <title>ScratchFun - Home</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        color: #333333;
+      }
+      nav {
+        background-color: #0f8bc0;
+        top: 0;
+        width: 100%;
+        border-radius: 0;
+        color: white;
+      }
+      nav * {
+        font-size: 18px;
+      }
+      nav a {
+        margin-left: 10px;
+      }
+      .inner {
+        margin: auto;
+        max-width: 800px;
+        padding: 10px;
+        display: flex;
+      }
+      .inner .row {
+        flex: 1;
+        padding: 10px 0;
+      }
+      .inner button {
+        border: none;
+        background-color: #fff;
+        color: #0f8bc0;
+        padding: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+      .inner button:hover {
+        background-color: #87c5df;
+        color: #fff;
+      }
+      .inner button:focus {
+        outline: none;
+        border: none;
+      }
+      .inner h1 {
+        margin: 0;
+        font-size: 2rem;
+        border-bottom: 4px solid #333;
+        max-width: 800px;
+        width: 75%;
+      }
+    </style>
   </head>
-  <body>
-    <h1> Still in Development </h1>
-  </body>
+  <nav>
+    <div class="inner">
+      <div class="row">
+        Scratch Fun
+      </div>
+      <a href="projects.html">
+        <button>
+          Projects
+        </button>
+      </a>
+      <a href="about.html">
+        <button>
+          About
+        </button>
+      </a>
+    </div>
+  </nav>
+  <div class="inner">
+    <h1>Hello World</h1>
+  </div>
 </html>
